@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="rasa">
+        <item>Pedas Level Setan</item>
+        <item>Pedas Level Biasa</item>
+        <item>Asin</item>
+        <item>Original</item>
+        <item>BBQ</item>
+    </string-array>
+</resources>
