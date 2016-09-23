@@ -4,10 +4,10 @@
 <br>2. Rasa Bitingsek
 <br>3. Size Bitingsek
 <br>4. Order pack
-Jika pelanggan tidak menginputkan nama maka akan error. Namun untuk pilihan rasa bitingsek tidak diberikan error karena secara default pilihan rasa tersebut adalah Pedas Setan.Setiap rasa pada pilihan jika ditekan order maka akan muncul harga berbeda pada masing masing ukuran.
+<br>Jika pelanggan tidak menginputkan nama maka akan error. Namun untuk pilihan rasa bitingsek tidak diberikan error karena secara default pilihan rasa tersebut adalah Pedas Setan.Setiap rasa pada pilihan jika ditekan order maka akan muncul harga berbeda pada masing masing ukuran.
 
 <b>SCREENSHOOT APLIKASI</b>
-Tampilan ketika aplikasi awal dijalankan
+<br>Tampilan ketika aplikasi awal dijalankan
 <br>![Gambar](https://raw.githubusercontent.com/Aldhofransnanda/bitingsek/master/Screenshot_2016-09-23-17-49-30_id.sch.smktelkom_mlg.tugas01.xiirpl1006.bitingsek.png)
 
 <br>Tampilan ketika di submit order namun masih kosong namanya.
