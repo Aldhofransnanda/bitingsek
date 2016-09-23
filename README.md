@@ -1,5 +1,5 @@
 <b>BITINGSEK-Aplikasi Pemesanan Mie Lidi</b>
-<>brAplikasi ini digunakan untuk melakukan pemesanan Mie Lidi Bitingsek. Untuk melakukan pemesanan, pelanggan menginputkan :
+<br>Aplikasi ini digunakan untuk melakukan pemesanan Mie Lidi Bitingsek. Untuk melakukan pemesanan, pelanggan menginputkan :
 <br>1. Nama pelanggan
 <br>2. Rasa Bitingsek
 <br>3. Size Bitingsek
