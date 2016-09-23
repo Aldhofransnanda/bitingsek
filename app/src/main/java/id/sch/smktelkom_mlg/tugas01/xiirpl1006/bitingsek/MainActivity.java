@@ -52,27 +52,32 @@ public class MainActivity extends AppCompatActivity {
 
         String hasil = "Size                       : \n";
         int startlen = hasil.length();
-        if (cbS.isChecked()) hasil += cbS.getText() + " - Rp. 5000\n";
-        if (cbM.isChecked()) hasil += cbM.getText() + " - Rp. 10000\n";
-        if (cbL.isChecked()) hasil += cbL.getText() + " - Rp. 15000\n";
-        if (cbXL.isChecked()) hasil += cbXL.getText() + " - Rp. 20000\n";
+        if (cbS.isChecked()) hasil += cbS.getText() + "\n";
+        if (cbM.isChecked()) hasil += cbM.getText() + "\n";
+        if (cbL.isChecked()) hasil += cbL.getText() + "\n";
+        if (cbXL.isChecked()) hasil += cbXL.getText() + "\n";
 
         String hasil2;
-
         if (rbMakan.isChecked()) {
-            hasil2 = "\nOrderan               : \n" + rbMakan.getText().toString();
+            hasil2 = "\nOrderan               : \n" + rbMakan.getText().toString() + "\n";
         } else if (rbBawa.isChecked()) {
-            hasil2 = "\nOrderan              : \n" + rbBawa.getText().toString();
+            hasil2 = "\nOrderan              : \n" + rbBawa.getText().toString() + "\n";
         } else {
-            hasil2 = "\nOrderan               : \nBelum memilih";
+            hasil2 = "\nOrderan               : \nBelum memilih\n";
         }
 
-        String hasil3;
+        String hasil3 = "Harga                      : \n";
+        if (cbS.isChecked()) hasil3 += cbS.getText() + " - Rp. 5000\n";
+        if (cbM.isChecked()) hasil3 += cbM.getText() + " - Rp. 10000\n";
+        if (cbL.isChecked()) hasil3 += cbL.getText() + " - Rp. 15000\n";
+        if (cbXL.isChecked()) hasil3 += cbXL.getText() + " - Rp. 20000\n";
+
 
 
         tvHasil.setText("Nama Customer  : \n" + nama +
                 "\n\nRasa                      : \n" + spRasa.getSelectedItem().toString() +
                 "\n\n" + hasil +
-                "\n" + hasil2);
+                "\n" + hasil2 +
+                "\n" + hasil3);
     }
 }
