@@ -59,11 +59,11 @@ public class MainActivity extends AppCompatActivity {
 
         String hasil2;
         if (rbMakan.isChecked()) {
-            hasil2 = "\nOrderan               : \n" + rbMakan.getText().toString() + "\n";
+            hasil2 = "Orderan               : \n" + rbMakan.getText().toString() + "\n";
         } else if (rbBawa.isChecked()) {
-            hasil2 = "\nOrderan              : \n" + rbBawa.getText().toString() + "\n";
+            hasil2 = "Orderan              : \n" + rbBawa.getText().toString() + "\n";
         } else {
-            hasil2 = "\nOrderan               : \nBelum memilih\n";
+            hasil2 = "Orderan               : \nBelum memilih\n";
         }
 
         String hasil3 = "Harga                      : \n";
@@ -71,7 +71,6 @@ public class MainActivity extends AppCompatActivity {
         if (cbM.isChecked()) hasil3 += cbM.getText() + " - Rp. 10000\n";
         if (cbL.isChecked()) hasil3 += cbL.getText() + " - Rp. 15000\n";
         if (cbXL.isChecked()) hasil3 += cbXL.getText() + " - Rp. 20000\n";
-
 
 
         tvHasil.setText("Nama Customer  : \n" + nama +
