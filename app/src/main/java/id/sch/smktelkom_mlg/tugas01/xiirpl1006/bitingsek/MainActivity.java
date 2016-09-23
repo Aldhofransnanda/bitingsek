@@ -44,6 +44,11 @@ public class MainActivity extends AppCompatActivity {
 
     private void doProcess() {
         String nama = etNama.getText().toString();
+        if (nama.isEmpty()) {
+            etNama.setError("Nama belum diisi");
+        } else {
+            etNama.setText(nama);
+        }
 
         String hasil = "Size                       : \n";
         int startlen = hasil.length();
@@ -53,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
         if (cbXL.isChecked()) hasil += cbXL.getText() + " - Rp. 20000\n";
 
         String hasil2;
+
         if (rbMakan.isChecked()) {
             hasil2 = "\nOrderan               : \n" + rbMakan.getText().toString();
         } else if (rbBawa.isChecked()) {
