@@ -1,9 +1,9 @@
 *BITINGSEK-Aplikasi Pemesanan Mie Lidi*
 Aplikasi ini digunakan untuk melakukan pemesanan Mie Lidi Bitingsek. Untuk melakukan pemesanan, pelanggan menginputkan :
-1. Nama pelanggan
-2. Rasa Bitingsek
-3. Size Bitingsek
-4. Order pack
+<br>1. Nama pelanggan
+<br>2. Rasa Bitingsek
+<br>3. Size Bitingsek
+<br>4. Order pack
 
 Jika pelanggan tidak menginputkan nama maka akan error. Namun untuk pilihan rasa bitingsek tidak diberikan error karena secara default pilihan rasa tersebut adalah Pedas Setan.
 Setiap rasa pada pilihan jika ditekan order maka akan muncul harga berbeda pada masing masing ukuran.
